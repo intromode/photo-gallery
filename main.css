@@ -1,6 +1,10 @@
+body {
+  background-color: tan;
+}
+h1 {
+  text-align: center;
+}
 ul {
-  border: solid black 2px;
-  width: 100px;
   margin: 10px;
   padding: 0px;
   text-align: center;
@@ -8,6 +12,12 @@ ul {
 
 li {
   list-style: none;
+  border: solid black 2px;
+  margin: 10px;
+  width: 100px;
+  display: inline-block;
+  color: white;
+  background-color: black;
 }
 
 img {
